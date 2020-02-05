@@ -14,9 +14,9 @@ while row_index < src.count do
     phrase = "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
     
     empty_array.push(phrase)
-  row_index += 1
-end
-  empty_array
+    row_index += 1
+  end
+    empty_array
 end
 
 
