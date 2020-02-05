@@ -9,13 +9,11 @@ def join_ingredients(src)
   
   row_index = 0
 while row_index < src.count do
-  element_index = 0
   inner_array = []
-  while element_index < src[row_index].count do
+  while  < src[row_index].count do
     phrase = "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
     
     inner_array.push(phrase)
-    element_index += 2
   end
   row_index += 1
 end
